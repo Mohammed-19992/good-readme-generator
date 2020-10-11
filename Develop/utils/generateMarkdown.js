@@ -1,8 +1,32 @@
-// function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+// This function is to generate markdown data for README
+export default function generateMarkdown(data) {
+  console.log(data);
+  return `
+## Name
+${data.Name}
 
-`;
-}
+## Title
+${data.Title}
 
-module.exports = generateMarkdown;
+## Description
+${data.Description}
+
+## Installation 
+${data.Installation}
+
+## Usage 
+${data.Usage}
+
+## License
+${data.License}
+
+## Credits
+${data.Credits}
+
+## Test
+${data.Tests}
+
+# Contact
+${data.Contact}
+
+`;}
