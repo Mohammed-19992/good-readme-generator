@@ -1,7 +1,12 @@
 
+  
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
+
+
 
 #### Title of the Project ####
-m
+Readme generator
 
 ## Table of Contents
 * [Author](#Author) 
@@ -14,35 +19,35 @@ m
 * [Questions](#Questions)
 
 ## Author
-m
+Barry
 
 ## Title
-m
+Readme generator
 
 ## Description
-m
+It allows user to generate readme files
 
 ## Installation
-m
+Using CSS, Java script and ES+
 
 ## Usage
-m
+By answering the questions
 
 ## License
-This project is licensed under the m
+This project is licensed under the [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 ## Credits
-m
+Yes, Mohammed
 
 ## Testing
-m
+blah blah
 
 ## Questions
 Contact me using the following:
 
-#Github url:[https://github.com/m]
+#Github url:[https://github.com/mohammed-19992]
 
-#Email Address:[]
+#Email Address:[abusalaharafat@hotmail.com]
 
 
                                                     All rights reserved ® undefined 2020 
