@@ -21,10 +21,11 @@ const { prompt } = pkg;
 const statements = [
 
     {type: "input", name: "Title", message: "What is the title of your project?"},
+    {type: "input", name: "Author", message: "What is the name of the Author of this project?"},
     {type: "input", name: "Description", message: "What is Your Project About?"},
     {type: "input", name: "Installation", message: "How did you install your project?"},
     {type: "input", name: "Usage", message: "How can users use your project?"},
-    {type: "input", name: "License", message: "Provide your License URL"},
+    {type: "input", name: "License", message: "Provide your License URL(type none if this project does not have a license)"},
     {type: "input", name: "Credits", message: "Are there any Contributers to this Project?"},
     {type: "input", name: "Testing", message: "What should be done for your project to be tested?"},
     {type: "input", name: "Questions", message: "Contact details for any questions. Press Enter!"}, 
@@ -36,10 +37,9 @@ const statements = [
 // function to write README file
 function writeToFile(fileName, data) {
     writeFile(fileName, data, error => {
-    if (error) {
+    if (error) throw error;
+    console.log('The file has been succeffuly saved!');
 
-    throw error;
-        }
       });
 }
 

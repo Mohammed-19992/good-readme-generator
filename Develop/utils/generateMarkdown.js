@@ -2,19 +2,27 @@
 export default function markdown(data) {
   console.log(data);
   return `
+  
+${data.License}
+
+
+
 
 #### Title of the Project ####
 ${data.Title}
 
 ## Table of Contents
-1- [name](#Name) 
-2- [Description](#Description)
-3- [Installation](#Installation)
-4- [Usage](#Usage)
-5- [License](#License)
-6- [Credits](#Credits)
-7- [Testing](#Testing)
-8- [Questions](#Questions)
+* [Author](#Author) 
+* [Description](#Description)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Credits](#Credits)
+* [Testing](#Testing)
+* [Questions](#Questions)
+
+## Author
+${data.Author}
 
 ## Title
 ${data.Title}
@@ -29,7 +37,7 @@ ${data.Installation}
 ${data.Usage}
 
 ## License
-${data.License}
+This project is licensed under the ${data.License}
 
 ## Credits
 ${data.Credits}
@@ -40,7 +48,7 @@ ${data.Testing}
 ## Questions
 Contact me using the following:
 
-#Github url:[${data.Username}]
+#Github url:[https://github.com/${data.Username}]
 
 #Email Address:[${data.Email}]
 
