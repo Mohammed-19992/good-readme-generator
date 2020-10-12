@@ -2,12 +2,16 @@
 // var writeFile = require("fs");
  // var generateMarkdown = require("./utils/generateMarkdown.js");
  // var pkg = require("inquirer");
+//const fs = require("fs");
+//const inquirer = require("inquirer");
+//const generateMarkDown = require("./utils/generateMarkdown.js");
 
-// Import function to import generateMarkDown file from its directory
- import generateMarkdown from "./utils/generateMarkdown.js";
+
+// Function to import generateMarkDown file from its directory
+import markdown from "./utils/generateMarkdown.js";
 // Importing package from inquirer Library
- import pkg from 'inquirer';
-// Importing from the File System
+import pkg from 'inquirer';
+// writeFile function 
  import { writeFile } from "fs";
 
 // prompt function
@@ -15,15 +19,18 @@ const { prompt } = pkg;
 
 // arrays of questions for user
 const statements = [
-    {type: "input", name: "Name", message: "What is your name?"},
-    {type: "input", name: "Title", message: "What is your project's title?"},
+
+    {type: "input", name: "Title", message: "What is the title of your project?"},
     {type: "input", name: "Description", message: "What is Your Project About?"},
     {type: "input", name: "Installation", message: "How did you install your project?"},
     {type: "input", name: "Usage", message: "How can users use your project?"},
-    {type: "input", name: "License", message: "What is the license you wish to use in the project?"},
+    {type: "input", name: "License", message: "Provide your License URL"},
     {type: "input", name: "Credits", message: "Are there any Contributers to this Project?"},
-    {type: "input", name: "Tests", message: "What should be done for your project to be tested?"},
-    {type: "input", name: "Contact", message: "Contact info for further questions"}, 
+    {type: "input", name: "Testing", message: "What should be done for your project to be tested?"},
+    {type: "input", name: "Questions", message: "Contact details for any questions. Press Enter!"}, 
+    {type: "input", name: "Username", message: "What is your GitHub username?"},
+    {type: "input", name: "Email", message: "What is your email Address?"},
+        
 ];
 
 // function to write README file
@@ -40,7 +47,7 @@ function writeToFile(fileName, data) {
 function init() {
 prompt(statements).then(answers => {
         
-        const response = generateMarkdown(answers);
+        const response = markdown(answers);
         console.log(answers);
         writeToFile("README.md", response);
       
