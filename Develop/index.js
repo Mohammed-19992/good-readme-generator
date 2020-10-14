@@ -26,7 +26,7 @@ const statements = [
     {type: "input", name: "Installation", message: "How did you install your project?"},
     {type: "input", name: "Usage", message: "How can users use your project?"},
     {type: "input", name: "License", message: "Provide your License URL(type none if this project does not have a license)"},
-    {type: "input", name: "Credits", message: "Are there any Contributers to this Project?"},
+    {type: "input", name: "Credits", message: "Are there any Contributors to this Project?"},
     {type: "input", name: "Testing", message: "What should be done for your project to be tested?"},
     {type: "input", name: "Questions", message: "Contact details for any questions. Press Enter!"}, 
     {type: "input", name: "Username", message: "What is your GitHub username?"},

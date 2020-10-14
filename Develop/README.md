@@ -6,7 +6,7 @@
 
 
 #### Title of the Project ####
-Readme generator
+Good Readme Generator
 
 ## Table of Contents
 * [Author](#Author) 
@@ -19,28 +19,28 @@ Readme generator
 * [Questions](#Questions)
 
 ## Author
-Barry
+Mohammed Arafat
 
 ## Title
-Readme generator
+Good Readme Generator
 
 ## Description
-It allows user to generate readme files
+It helps users and programmers generate readme files within few mins when they provide information about their projects based on questions the app asks
 
 ## Installation
-Using CSS, Java script and ES+
+I used ES6+ and Node.js
 
 ## Usage
-By answering the questions
+They just need to type answers for questions the app asks them to answer
 
 ## License
 This project is licensed under the [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 ## Credits
-Yes, Mohammed
+No
 
 ## Testing
-blah blah
+If the app generates the readme file for the user then it works
 
 ## Questions
 Contact me using the following:
