@@ -5,7 +5,7 @@ Good Readme Generator
 Using ES6+ and Node.js, this project allows users and programmers to generate their own readme files after entering the required information the app asks them to enter.  That would save time and efforts for the programmers or any users using this app.
 
 ## screenshot of the project:
-
+![gif](https://user-images.githubusercontent.com/67847324/95939791-e3a86f00-0daa-11eb-98d6-07fcdbc7b7c5.gif)
 
 ## Review
 * Because this is a command-line application that won’t be deployed, here is a link for the walkthrough video that demonstrates the functionality of the application: https://www.youtube.com/watch?v=GDgBkEN_t0g
