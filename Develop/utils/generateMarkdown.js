@@ -53,6 +53,6 @@ Contact me using the following:
 #Email Address:[${data.Email}]
 
 
-                                                    All rights reserved ® ${data.Name} 2020 
+                                                    All rights reserved ® ${data.Author} 2020 
 
 `;}

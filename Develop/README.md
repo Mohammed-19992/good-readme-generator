@@ -1,6 +1,6 @@
 
   
-[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 
 
@@ -34,7 +34,7 @@ I used ES6+ and Node.js
 They just need to type answers for questions the app asks them to answer
 
 ## License
-This project is licensed under the [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+This project is licensed under the [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Credits
 No
@@ -50,5 +50,5 @@ Contact me using the following:
 #Email Address:[abusalaharafat@hotmail.com]
 
 
-                                                    All rights reserved ® undefined 2020 
+                                                    All rights reserved ® Mohammed Arafat 2020 
 
